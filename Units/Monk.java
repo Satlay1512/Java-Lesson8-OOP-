@@ -9,4 +9,8 @@ public class Monk extends Unit{
     public void cast(){
         System.out.println("Бум!");
     }
+    @Override
+    public String getInfo() {
+        return "Monk";
+    }
 }

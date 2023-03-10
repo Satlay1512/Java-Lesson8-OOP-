@@ -9,4 +9,9 @@ public class Sniper extends ShooterClass{
     public void step() {
         System.out.println("Снайпер высрелил!");
     }
+
+    @Override
+    public String getInfo() {
+        return "Sniper";
+    }
 }

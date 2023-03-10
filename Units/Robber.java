@@ -8,5 +8,9 @@ public class Robber extends InfantClass {
     public void step() {
         System.out.println("Удар разбоника!");
     }
+    @Override
+    public String getInfo() {
+        return "Robber";
+    }
     
 }

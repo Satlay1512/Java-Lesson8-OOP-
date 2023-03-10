@@ -21,4 +21,9 @@ public abstract class Unit implements UnitInterfaceStep{
     public void step() {
         System.out.println("Шаг.");
     }
+    
+    @Override
+    public String getInfo() {
+        return "";
+    }
 }

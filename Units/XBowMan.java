@@ -9,4 +9,10 @@ public class XBowMan extends ShooterClass{
     public void step() {
         System.out.println("Арбалетчик высрелил!");
     }
+
+    @Override
+    public String getInfo() {
+        return "XBowMan";
+    }
+    
 }
